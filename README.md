@@ -1,5 +1,5 @@
-![2](https://github.com/user-attachments/assets/ef96f19c-a5db-41c6-b4e3-2fe0182900a1)
-![1](https://github.com/user-attachments/assets/d02b08cb-c37e-4688-ae08-36f8488d6dff)
+
+
 # ConsultantMailApp
 This Django application is designed to facilitate communication between project consultants, assistants, and students by automating the email notification process. The app reads data from a CSV file containing information about student projects, including student IDs, consultants, and assistants.
 <hr/>
@@ -22,3 +22,11 @@ By using this application, project coordinators can streamline communication and
 - User Interface: The application features a user-friendly interface designed with HTML and CSS, allowing users to interact with the application easily and efficiently. The interface provides options to upload CSV files and select the desired notification method.
 
 This app is particularly useful for academic institutions or organizations managing multiple projects where regular updates and communication are essential for project success.
+
+![1](https://github.com/user-attachments/assets/d02b08cb-c37e-4688-ae08-36f8488d6dff)
+![2](https://github.com/user-attachments/assets/ef96f19c-a5db-41c6-b4e3-2fe0182900a1)
+![3](https://github.com/user-attachments/assets/e7d27baf-9c10-4062-b307-4140ca39101a)
+<br><br>
+Mail: 
+<br>
+![mailss](https://github.com/user-attachments/assets/65f39be8-2dd6-4ea8-a6b5-3e047e95f1b8)
