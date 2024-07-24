@@ -9,7 +9,7 @@ def send_to_consultant(consultant_mail, message):
     server.sendmail(sender_mail, consultant_mail, message)
 
 def send_to_consultant_and_assistant(consultant_mail, assistant_list, message):
-    server = smtplib.SMTP("smtp.gmail.com", 587)
+    server = smtplib.SMTP("smtp.gmail.com", portnumber)
     server.starttls()
     server.login(sender_mail, "apppasword")
     receivers = assistant_list 
