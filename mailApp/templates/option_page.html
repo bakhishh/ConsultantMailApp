@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultant Mail System</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Consultant Mail System</h1>
+<!-- example_template.html -->
+<div class="button-container">
+    <!-- Button to send to consultant -->
+    <button class="button" onclick="location.href='{% url 'selected_consultant' consultant.id %}'">
+        Send To Consultant
+    </button>
+    <!-- Ensure the correct URL name and argument -->
+    <button class="button" onclick="location.href='{% url 'send_consultant_and_assistant' consultant.id %}'">
+        Send To Consultant And Assistant
+    </button>
+</div>
+
+</body>
+</html>
