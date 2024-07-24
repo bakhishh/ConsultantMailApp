@@ -1,3 +1,5 @@
+![2](https://github.com/user-attachments/assets/ef96f19c-a5db-41c6-b4e3-2fe0182900a1)
+![1](https://github.com/user-attachments/assets/d02b08cb-c37e-4688-ae08-36f8488d6dff)
 # ConsultantMailApp
 This Django application is designed to facilitate communication between project consultants, assistants, and students by automating the email notification process. The app reads data from a CSV file containing information about student projects, including student IDs, consultants, and assistants.
 <hr/>
