@@ -1,19 +1,19 @@
 
 
 # ConsultantMailApp
-This Django application is designed to facilitate communication between project consultants, assistants, and students by automating the email notification process. The app reads data from a CSV file containing information about student projects, including student IDs, consultants, and assistants.
+This Django application is designed to facilitate communication between project consultants, assistants, and students by automating the email notification process. The app reads data from a CSV file containing information about student projects, including project type , student IDs, consultants, and assistants.
 <hr/>
 The application provides two main options for sending email notifications:
 
-1. Consultant-Only Notifications: This option sends an email to the project consultant with details about the student ID.
+1. Consultant-Only Notifications: This option sends an email to the project consultant with details about the student ID , assistant and project type.
 
-2. Consultant and Assistant Notifications: This option sends emails to both the consultant and the assistant. The emails include information about the student ID and the roles of the consultant and assistant.
+2. Consultant and Assistant Notifications: This option sends emails to both the consultant and the assistant. The emails include information about the project type, student ID and the details of the consultant and assistant.
 
 By using this application, project coordinators can streamline communication and ensure that all relevant parties are informed about the project assignments and details.
 <hr/>
 <strong>Features</strong>
 
-- CSV File Integration: Easily import project data from a CSV file with columns for student ID, consultant, consultant email, assistant, and assistant email.
+- CSV File Integration: Easily import project data from a CSV file with columns for project type , student ID, consultant name, consultant email, assistant name, and assistant email.
 
 - Flexible Notification Options: Choose between sending notifications to only the consultant or to both the consultant and assistant.
 
